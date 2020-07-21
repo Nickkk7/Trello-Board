@@ -1,0 +1,81 @@
+<!doctype html5>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content="width=device-width, initail-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Trello-Board</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"> </script>
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="lists.css"> 
+    </head>
+    <body>
+        <div class="back">
+            <nav class="navbar">
+            <div class="but" id="but1">        
+                    <button><i class="fas fa-home"></i></button>
+                    <button><i class="fas fa-th-list"> <span id="spa2">Boards</span></i>  </button>    
+                    <input  type="search" id="in"/>
+                </div>
+                <p class="but" id="spa1">Tarala</p>
+                <div class="but" id="but2">
+                    <button><i class="fas fa-plus"></i></button>
+                    <button><i class="fas fa-user"></i></button>
+                </div>
+            </nav>
+
+            <div class="div">
+                <p class=" para" id="spa3" >Frontend Training</p>
+                <button class="para" id="but3"><i class="fas fa-ellipsis-v"><span id="spa2">Show menu</span></i></button>
+            </div>
+
+            
+
+            <div class="row">
+                    <div class="column" id="div1">
+                        <p class="para-2">To Do<i class="fas fa-ellipsis-h w3-tiny"></i></p>
+                        <p class="para-1">Learn HTML<i class="fas fa-pencil-alt"></i></p>
+                        <p class="para-1">Learn CSS<i class="fas fa-pencil-alt"></i></p>
+                        <p class="para-1">Learn Javascript<i class="fas fa-pencil-alt"></i></p>
+                        <button class="but-4"><span class="spa-4">+ Add another card</span></button>
+                        
+                    </div>
+                    <div class="column" id="div2">
+                        <p class="para-2">Doing<i class="fas fa-ellipsis-h w3-tiny"></i></p>
+                        <p class="para-1">Prepare resume</p>
+                        <textarea rows="3" class="text-1" placeholder="Enter a title for this card..."></textarea>
+                        <div class="add-card">
+                            <button class="big-but"><span>Add Card</span></button>
+                            <i class="fas fa-times w3-xxlarge "></i>
+                        </div>
+                    </div>
+                    <div class="column" id="div3">
+                        <p class="para-2">Testing/Verifying<i class="fas fa-ellipsis-h w3-tiny"></i></p>
+                        <p class="para-1">Twitter app frontend</p>
+                        <button class="but-4"><span class="spa-4">+ Add another card</span></button>
+                    </div>
+                    <div class="column" id="div4">
+                        <p class="para-2">Deploying<i class="fas fa-ellipsis-h w3-tiny"></i></p>
+                        <p class="para-1">Twitter app backend</p>
+                        <button class="but-4"><span class="spa-4">+ Add another card</span></button>
+                    </div>
+                    <div class="column" id="div5">
+                        <p class="para-2">Done<i class="fas fa-ellipsis-h w3-tiny"></i></p>
+                        <button class="but-4"><span class="spa-4">+ Add card</span></button>
+                    </div>
+                    <div class="column" id="div6">
+                        <button class="but-4"><span class="spa-4">+ Add card</span></button>
+                    </div>
+                    <div class="column" id="div7">
+                        <textarea rows="3" cols="6" class="text-1" id="text" placeholder="Enter a title for this card..."></textarea>
+                        <div class="add-card">
+                            <button class="big-but"><span>Add Card</span></button>
+                            <i class="fas fa-times w3-xxlarge "></i>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
